@@ -1,0 +1,27 @@
+[global]
+rcontrols = {default}
+double_calibration = on
+
+[record]
+rcrec = {default}
+
+[rc]
+{default}
+{sony}
+{lgtv}
+
+[data]
+{default}
+folder = /usr/lib/python3.5/ircgpio/1
+codes = code.py
+buttons = buttons.txt
+
+{sony}
+folder = /usr/lib/python3.5/ircgpio/2
+codes = code.py
+buttons = buttons.txt
+
+{lgtv}
+folder = /usr/lib/python3.5/ircgpio/3
+codes = code.py
+buttons = buttons.txt
